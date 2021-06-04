@@ -76,6 +76,13 @@
         </div>
     </header>
     
+    <div id="loader-wrapper">
+    <div id="loader"></div>
+ 
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+ 
+</div>
 <!--******************************************** H O M E  S E C T I O N - - T O P *************************************************************************    -->
    
     <main class="main">
@@ -679,6 +686,20 @@ function changeClass() {
         window.onbeforeunload = function () {
   window.scrollTo(0, 0);
 }
+    </script>
+    <script>
+        $('body').toggleClass('loaded');
+    </script>
+    
+    <script>
+        $(document).ready(function() {
+ 
+    setTimeout(function(){
+        $('body').addClass('loaded');
+        $('h1').css('color','#222222');
+    }, 3000);
+ 
+});
     </script>
 
 </body></html>
