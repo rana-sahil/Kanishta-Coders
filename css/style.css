@@ -1950,7 +1950,7 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 
     top: 0;
     width: 51%;
     height: 100%;
-    background: #222222;
+    background: #4B0082;
     z-index: 1000;
 }
  
@@ -2011,7 +2011,7 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 
 .loaded #loader-wrapper .loader-section.section-right,
 .loaded #loader-wrapper .loader-section.section-left {
  
-    -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+    -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0., 0.355, 1.000);
                 transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
 }
 
