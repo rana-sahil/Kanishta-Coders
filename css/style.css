@@ -1839,12 +1839,12 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 
   
   .videoplay{
       padding:30px;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: (minmax(12.5rem, 12.5rem))[auto-fill];
-        grid-template-columns: repeat(auto-fill, minmax(12.5rem, 12.5rem));
-    grid-column-gap: 10.5rem;
-    grid-row-gap: 1rem;
+    /*display: -ms-grid;*/
+    /*display: grid;*/
+    /*-ms-grid-columns: (minmax(12.5rem, 12.5rem))[auto-fill];*/
+    /*    grid-template-columns: repeat(auto-fill, minmax(12.5rem, 12.5rem));*/
+    /*grid-column-gap: 10.5rem;*/
+    /*grid-row-gap: 1rem;*/
         padding: 29px 22px 29px 22px;
        max-width: 100%;
         height: auto;
