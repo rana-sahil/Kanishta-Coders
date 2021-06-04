@@ -1950,7 +1950,7 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 
     top: 0;
     width: 51%;
     height: 100%;
-    background: #4B0082;
+    background: #AARRGGBB;
     z-index: 1000;
 }
  
