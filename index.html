@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
+    <meta http-equiv="cache-control" content="no-cache">
 	<!--	links start  -->
     <link rel="manifest" href="manifest.json">
     <link rel="icon" type="image/jpg" sizes="32x32" href="assets/img/logo3.png">
@@ -465,8 +466,8 @@
 
         
 <!--*********************************************************** F E E D B A C K   S E C T I O N *****************************************************************-->
-
-        <section class="testimonials" data-aos="fade" id="Feedback">
+        
+        <section class="testimonials" data-aos="fade" id="Feedback" >
             <div class="content-container">
                 <div class="section__text" data-aos="fade-up">
                     <h2 class="section__heading">What our students and their parents have to say about us</h2>
@@ -674,6 +675,10 @@ function changeClass() {
   }
 }
     </script>
-
+    <script>
+        window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+}
+    </script>
 
 </body></html>
